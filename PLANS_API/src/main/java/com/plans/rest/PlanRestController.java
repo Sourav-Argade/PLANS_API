@@ -48,7 +48,6 @@ public class PlanRestController {
 		
 		String responseMsg = AppConstants.EMPTY_STR;
 		boolean isSaved = planService.savePlan(plan);
-//		Map<String, String> messages = appProps.getMessages();
 		
 		if(isSaved) {
 			responseMsg = messages.get(AppConstants.PLAN_SAVE_SUCC);
@@ -105,7 +104,6 @@ public class PlanRestController {
 		
 		String msg = AppConstants.EMPTY_STR;
 		boolean isStatusChanged = planService.planStatusChange(planId, activeSw);
-//		Map<String, String> messages = appProps.getMessages();
 		
 		if(isStatusChanged) {
 			msg = messages.get(AppConstants.PLAN_STATUS_CHANGE);

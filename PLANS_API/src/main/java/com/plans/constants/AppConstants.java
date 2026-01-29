@@ -21,3 +21,5 @@ public class AppConstants {
 	public static final String PLAN_STATUS_CHANGE_FAIL = "planStatusChangeFail";
 
 }
+
+//To avoid hard coded messages
